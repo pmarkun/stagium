@@ -1,0 +1,199 @@
+*** Simplicity Changelog ***
+
+2011.10.12 - version 1.5.12
+ * includes/widgets/widget-woo-twitter.php made Twitter http requests secure for use with WooCommerce
+
+2011.10.05 - version 1.5.11
+ * /includes/theme-actions.php - Code consistency checks in featured slider JavaScript. Removed pagination generation and HTML wrapping logic.
+ * /includes/featured.php - Generate pagination via PHP, if enabled, instead of via SlidesJS JavaScript.
+
+2011.10.02 - version 1.5.10
+ * index.php - Code consistency checks and additional support for WPML in the Mini-Features, Portfolio and Testimonials sections.
+ * /lang/en_GB.po - Rescanned language file.
+
+2011.08.17 - version 1.5.9
+ * includes/widgets/widget-woo-subscribe.php - removed array_fill_keys() (PHP 5.2 only) and manually started the array. 
+
+2011.08.05 - version 1.5.8
+ * includes/theme-options.php, 
+   includes/theme-actions.php - updated slider speed options
+
+2011.08.04 - version 1.5.7
+ * includes/theme-actions.php - added preload image to slidesJS
+ * images/loading.png - new pre-load image
+ * style.css - added display:none to .slides_container to avoid stacking of portfolio items
+
+2011.07.23 - version 1.5.6
+ * header.php,
+   includes/theme-actions.php - updated slider logic to be able to used with static front page
+
+2011.07.21 - version 1.5.5
+ * archive.php - Display portfolio item images in archives.
+ * search.php - Code standards consistency checks.
+
+2011.07.17 - version 1.5.4
+ * /includes/js/general.js - Removed calls to console() function.
+
+2011.07.15 - version 1.5.3
+ * style.css - Remove "float:left;" Add "position: absolute;" to #main #testimonials .quote-icon line 358
+ * style.css - Adjusted #main #testimonials .quotes { padding-left: 76px; } line 360
+ * style.css - Adjusted #testimonials .quote { width:560px; } line 361
+ * style.css - Added #testimonials.col-full .quote { width:860px; } line 362
+
+2011.07.07 - version 1.5.2
+ * /includes/js/general.js - Replaced call to jQuery.innerFade with call to SlidesJS.
+ * /includes/theme-js.php - Removed call to jQuery.innerFade.
+ * style.css - Refined .slides_control selector to point only to the homepage slider.
+ * style.css - Added #testimonials .quote { width:830px; } line 361
+
+2011.06.30 - version 1.5.1
+ * /includes/js/portfolio.js - Added hash-based portfolio navigation JavaScript.
+ * template-portfolio.php - changed the link for the tags to include hash tag so it is easier to copy the URL
+
+2011.06.28 - version 1.5.0
+ * /includes/theme-actions.php, 
+   /includes/js/general.js, 
+   /includes/gallery.php - Modified calls to loopedSlider and loopedSlider HTML to work with SlidesJS.
+ * /includes/theme-js.php - Removed call to loopedSlider and moved SlidesJS enqueue outside of if ( is_home() ).
+ * style.css - Updated CSS for portfolio slider to work with SlidesJS.
+
+2011.06.20 - version 1.4.5
+ * /includes/gallery.php - Updated prettyPhoto "rel" to include thumbnail strip of all portfolio images in the gallery.
+
+2011.06.15 - version 1.4.4
+ * /includes/widgets/widget-woo-subscribe.php - Added support for widget title translation via WPML.
+ * /lang/en_GB.po - Rescanned language file.
+ * style.css - Adjusted portfolio gallery style to accomodate narrower images.
+
+2011.06.14 - version 1.4.3
+ * /includes/gallery.php - Changed rel="prettyPhoto" to rel="lightbox" to fix intermittent lightbox.
+ * /includes/js/portfolio.js - Changed rel^='prettyPhoto' rel^='lightbox' to fix intermittent lightbox.
+ * template-portfolio.php - Changed rel="prettyPhoto" to rel="lightbox" to fix intermittent lightbox.
+
+2011.05.30 - version 1.4.2
+ * /includes/theme-functions.php - Added "post_tag" taxonomy to breadcrumbs on single portfolio item pages.
+
+2011.05.28 - version 1.4.1
+ * style.css - Fixed 2nd level dropdown menu positioning
+ 
+2011.05.27 - version 1.4
+ * includes/theme-options.php - Added portfolio post type "Image Crop Alignment" & Added option to customize single portfolio gallery header title.
+ * single-portfolio.php - Added option to customize single portfolio gallery header title.
+
+2011.05.19 - version 1.3.5
+ * search.php - Fixed the title formatting.
+
+2011.05.11 - version 1.3.4
+ * includes/theme-actions.php - Changed the order of slider options so not to end with a conditional option.
+
+2011.05.10 - version 1.3.3
+ * template-portfolio.php - Added optional prettyPhoto lightbox URL custom field, as well as support for videos in the prettyPhoto lightbox.
+ * includes/theme-options.php - Added optional prettyPhoto lightbox URL custom field.
+
+2011.04.29 - version 1.3.2
+ * includes/theme-actions.php - Fixed bug in custom typography
+ * index.php - Added stripslashes to section titles to avoid backslashes
+
+2011.04.29 - version 1.3.1
+ * style.css - Fixed IE7 slide content not displaying
+
+2011.04.28 - version 1.3
+ * includes/theme-actions.php - Added slider fade speed option (line 207)
+ * includes/theme-options.php - Added slider fade speed option (lines 332-336)
+
+2011.04.21 - version 1.2.8
+ * style.css - Changed body background color (line 111) and wrapper background color (line 138)
+ * includes/theme-actions.php - Fixed styling options output in header
+
+2011.04.21 - version 1.2.7
+ * style.css - Changed body background color (line 111) and removed wrapper background color (line 138)
+
+2011.04.13 - version 1.2.6
+ * style.css - Fixed body and #wrapper background color. Set min-height to #content.
+
+2011.04.12 - version 1.2.5
+ * style.css - Changed z-index to 999 on #header-container
+ * includes/theme-js.php - Load prettyphoto on single portfolio page
+ * includes/gallery.php - Use prettyphoto on single portfolio image
+ 
+2011.04.07 - version 1.2.4
+ * template-portfolio.php - Added support for correct large image when post thumbnails are enabled. Removed pagination to fix conflict with portfolio tags bar.
+
+2011.04.06 - version 1.2.3 
+ * style.css - Added footer styling for Twitter widget
+
+2011.04.04 - version 1.2.2 
+ * style.css - Fixed IE7 z-index bug for dropdown navigation
+
+2011.04.04 - version 1.2.1 
+ * includes/theme-actions.php - add code to wrap slider pagination for styling (lines 216-217)
+ * stye.css - added code that will allow slider pagination to resize automatically (lines 850-861)
+
+2011.04.02 - version 1.2 
+ * includes/theme-functions.php - added custom permalink options for mini-features and portfolio CPT
+ * includes/theme-options.php - added custom permalink options for mini-features and portfolio CPT
+
+2011.04.01 - version 1.1.9 
+ * includes/featured.php - added inline styles to allow for single slide. (lines 6 & 9)
+
+2011.03.25 - version 1.1.8 
+ * includes/featured.php - additional changes to support WP Post Thumbs in slider
+
+2011.03.25 - version 1.1.7 
+ * includes/featured.php - added conditional code to display WP Post Thumbs in slider
+
+2011.03.24 - version 1.1.6 
+ * style.css - more specific for footer styles (line 518 & 521). Delete "color: #fff;" from #footer-widgets (line 334)
+
+2011.03.24 - version 1.1.5 
+ * style.css - fixed multiple level drop downs 2.2.1 Drop-down menus
+
+2011.03.24 - version 1.1.4 
+ * style.css - change body background to #fff (line 111) and remove the background color from #wrapper (line 138).
+
+2011.03.23 - version 1.1.3 
+ * includes/theme-options.php - fix double layout option in post - delete lines 736-745
+
+2011.03.23 - version 1.1.2 
+ * single-portfolio.php - fixed woo_embed error message
+
+2011.03.21 - version 1.1.1
+ * includes/theme-functions.php - added woo_show_portfolio_in_tag() function
+
+2011.03.21 - version 1.1
+ * style.css - nav submenu styling 2.2 Navigation
+ * includes/js/general.js - Center Nav Sub Menus
+ * includes/widgets/widget-woo-address.php - added
+ * includes/theme-widgets.php - add support for widget-woo-address.php
+ * style.css - added address widget styling 4.2 Specific Widgets
+ * includes/theme-functions.php - Exclude Pages
+ * includes/theme-options.php - added Secondary Navigation
+ * style.css - styling for inner page navigation 2.2.3 Page Navigation
+ * includes/js/slides.min.jquery.js - updated to latest version
+ * includes/featured.php - delete lines 54-55
+ * includes/theme-actions.php - changed woo_slider_options
+ * style.css - 6.7 Slider
+ * images/pagination.png - added
+ * includes/theme-options.php - added Enable Single Portfolio Gallery
+ * includes/theme-functions.php - added Remove Meta From Array
+ * includes/gallery.php - added
+ * includes/js/general.js - added Single Portfolio Gallery
+ * includes/theme-js.php - added loopedSlider.js
+ * includes/js/loopedSlider.js - added
+ * includes/theme-actions.php - added woo_portfolio_options
+ * index.php-  added option to display recent posts instead of features.
+ * includes/theme-options.php - added Display Recent Posts
+ * includes/theme-options.php - Typography section
+ * theme-actions.php - change post title class (line 101)
+ * includes/sub-featured.php - delete
+ * includes/theme-options.php - added Number of Mini-Features
+ * index.php added option to control number of mini-features
+ * single-portfolio.php - complete overhaul for gallery layout
+ * styles/dark.css - added
+	
+2011.03.18 - version 1.0.1
+ * template-portfolio.php - removed clear fix for tag sorting to work properly. Fixed to show more image gallery per portfolio item in the lightbox.
+ * style.css - modified section 2.9 Portfolio
+ 
+2011.03.15 - version 1.0
+ * First release!

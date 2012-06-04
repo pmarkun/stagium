@@ -1,0 +1,42 @@
+body, #footer-container { background: #1b1b1b; }
+#footer-widgets-container { background: #1f1f1f; }
+#header-container { background:#f8f8f8;border-color: #e0e0e0; }
+
+a, #comments .comment-head .name, .slide-content .title { color: #3570b3; }
+a:hover, .archive_header, .post .title, .page .title, h1.title, .post .title a:link, .post .title a:visited, .single .title a:link, .single .title a:visited { color: #29384c; }
+
+.nav a { color: #464646; }
+.nav a:hover, 
+.nav li.current_page_item a, 
+.nav li.current_page_parent a,
+.nav li.current-menu-ancestor a,
+.nav li.current-cat a,
+.nav li.current-menu-item a,
+.nav li.sfHover { color: #bcbcbc; }
+
+#slides, #title-container { background:#f0f0f0; border-top: 3px solid #ebebeb; border-bottom:1px solid #e1e1e1; }
+.slide .entry h2 {color: #bbbbbb;}
+
+#main #testimonials .quote-icon { background-color: #e1e1e1; }
+#main .section { border-color: #c9c9c9; }
+
+#footer-widgets .widget h3 { border-color: #4a4a4a; color: #e7e7e7; }
+#footer-widgets .widget ul li { border-color: #484848; }
+
+#tabs, 
+#post-author, 
+#main #connect,
+.widget_woo_twitter .back, 
+#comments .comment .comment-container, 
+#comments .comment-entry,
+.search_main { background: #f8f8f8; border-color: #e4e4e4; }
+#post-author .profile-content { border-color: #e4e4e4; }
+#comments .comment-head, #post-author .profile-content { background: #f3f3f3; }
+
+a.button, 
+a.comment-reply-link, 
+#commentform #submit,
+.submit,
+input[type=submit],
+input.button,
+button.button { background: #356db3; border-color: #7faf40; border-bottom-color: #20549a; }

@@ -1,0 +1,45 @@
+body, #footer-container { background: #080808; }
+#wrapper { background: #080808; }
+h1, h2, h3, h4, h5, h6 { color: #FFFFFF; }
+#footer-widgets-container { background: #000000; }
+#header-container { background:#080808;border-color: #1f1f1f; }
+
+a, #comments .comment-head .name, .slide-content .title, .slide .entry h2 { color: #3585B3; }
+a:hover, .archive_header, .post .title, .page .title, h1.title, .post .title a:link, .post .title a:visited, .single .title a:link, .single .title a:visited { color: #fff; }
+
+.nav a { color: #3e4245; text-shadow: none; }
+.nav a:hover, 
+.nav li.current_page_item a, 
+.nav li.current_page_parent a,
+.nav li.current-menu-ancestor a,
+.nav li.current-cat a,
+.nav li.current-menu-item a,
+.nav li.sfHover { background: #3585B3; color: #fff; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+
+#slides, #title-container { background:#131313; border-top: 3px solid #1f1f1f; border-bottom:1px solid #1f1f1f; }
+
+#main .section, #comments, .breadcrumbs, .widget ul li, #footer-widgets .widget ul li { border-color: #232323; }
+.widget h3 {border-color: #232323;color: #FFFFFF;}
+#tabs ul.wooTabs li a.selected, #tabs ul.wooTabs li a:hover, #sub_nav .menu ul li.current_page_item, #sub_nav .menu ul li:hover {background:#232323;}
+#footer-widgets .widget h3 { border-color: #232323; color: #989898; }
+#sub_nav .menu ul li { background: #131313; }
+#sub_nav .menu ul { border: 1px solid #1F1F1F; }
+#main #testimonials .quote-icon { background-color:#3585B3; }
+
+#tabs, 
+#post-author, 
+#main #connect,
+.widget_woo_twitter .back, 
+#comments .comment .comment-container, 
+#comments .comment-entry,
+.search_main, .widget_woo_twitter ul, .widget_woo_twitter ul li, #contact-page ol.forms input.txt, #contact-page ol.forms textarea, #connect .newsletter-form .email, #commentform textarea { background: #131313; border-color: #1F1F1F !important; }
+#tabs .inside {background: #000000;}
+#tabs .inside li, #tabs .inside {border-color: #1F1F1F;}
+#tabs ul.wooTabs li {background:#131313;}
+#tabs ul.wooTabs li a {border-color: #000000;}
+
+
+.searchform {background: #171717;border-color: #000000 #000000 #262626;}
+#post-author .profile-content { border-color: #d5d7e5; }
+#comments .comment-head, #post-author .profile-content { background: #edeef5; }
+
